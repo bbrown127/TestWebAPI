@@ -41,7 +41,7 @@ namespace TestWebAPI.Controllers
         public IHttpActionResult PutPerson(int id, Person person)
         {
             if (!ModelState.IsValid)
-            {
+            { 
                 return BadRequest(ModelState);
             }
 
